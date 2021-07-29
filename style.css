@@ -1,4 +1,5 @@
 body{
+    margin: 0;
     font-family: 'Poppins', sans-serif;
 }
 section{
@@ -18,6 +19,9 @@ section{
 h1{
     font-weight: 700;
     font-size: 45px;
+}
+h2{
+    font-size: 40px;
 }
 p{
     color: dimgray;
@@ -40,4 +44,31 @@ p{
     background-image: url("images/dream-bg.png");
     background-repeat: no-repeat;
     background-position: right;
+}
+.exp{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-position-x: -5px;
+    background-position-y: 220px;
+}
+.exp div{
+    box-shadow: 5px 7px 40px gray;
+    height: 80%;
+}
+.exp h3{
+    color: orange;
+}
+#full{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+#baby{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
